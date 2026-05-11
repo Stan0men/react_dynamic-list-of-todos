@@ -23,6 +23,7 @@ export const TodoModal: React.FC<TodoModalProps> = ({
     if (!selectedTodo) {
       setUser(null);
       setIsLoading(false);
+
       return;
     }
 
